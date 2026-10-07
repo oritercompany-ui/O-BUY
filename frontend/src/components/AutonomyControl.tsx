@@ -75,14 +75,15 @@ export default function AutonomyControl({
       </div>
 
       <div
-        style={{
-          display: "grid",
-          gridTemplateColumns:
-            "repeat(3, minmax(0, 1fr))",
-          gap: "9px",
-          marginTop: "20px",
-        }}
-      >
+          className="autonomy-options"
+          style={{
+            display: "grid",
+            gridTemplateColumns:
+              "repeat(3, minmax(0, 1fr))",
+            gap: "9px",
+            marginTop: "20px",
+          }}
+        >
         {autonomyOptions.map((option) => {
           const isActive =
             autonomy === option.label;

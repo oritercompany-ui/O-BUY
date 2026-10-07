@@ -612,9 +612,9 @@ export default function App() {
           }
 
           .obuy-command-button {
-            width: auto !important;
-            min-width: 108px !important;
-            padding: 0 12px !important;
+            width: fit-content !important;
+            min-width: 0 !important;
+            padding: 0 10px !important;
             justify-content: center !important;
           }
 
