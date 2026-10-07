@@ -803,23 +803,23 @@ export default function SuccessScreen({
         }
 
         @media (max-width: 850px) {
-          section > div:nth-of-type(3) {
+          section > div:nth-of-type(4) {
             grid-template-columns: 1fr !important;
             gap: 38px !important;
             padding-left: 24px !important;
             padding-right: 24px !important;
           }
 
-          section > div:nth-of-type(3) > div:first-child {
+          section > div:nth-of-type(4) > div:first-child {
             text-align: center !important;
           }
 
-          section > div:nth-of-type(3) > div:first-child > p {
+          section > div:nth-of-type(4) > div:first-child > p {
             margin-left: auto !important;
             margin-right: auto !important;
           }
 
-          section > div:nth-of-type(3) > div:first-child > div:last-child {
+          section > div:nth-of-type(4) > div:first-child > div:last-child {
             margin-left: auto !important;
             margin-right: auto !important;
           }
@@ -830,33 +830,33 @@ export default function SuccessScreen({
             padding: 18px 20px !important;
           }
 
-          section > div:nth-of-type(3) {
+          section > div:nth-of-type(4) {
             padding: 20px 18px 35px !important;
             gap: 32px !important;
           }
 
-          section > div:nth-of-type(3) > div:first-child {
+          section > div:nth-of-type(4) > div:first-child {
             width: 100% !important;
           }
 
-          section > div:nth-of-type(3) > div:first-child h1 {
+          section > div:nth-of-type(4) > div:first-child h1 {
             font-size: 48px !important;
             line-height: 0.95 !important;
           }
 
-          section > div:nth-of-type(3) > div:first-child > p {
+          section > div:nth-of-type(4) > div:first-child > p {
             max-width: 330px !important;
             font-size: 12px !important;
             line-height: 1.6 !important;
           }
 
-          section > div:nth-of-type(3) > div:first-child > div:last-child {
+          section > div:nth-of-type(4) > div:first-child > div:last-child {
             width: 100% !important;
             max-width: 350px !important;
             gap: 5px !important;
           }
 
-          section > div:nth-of-type(3) > div:last-child {
+          section > div:nth-of-type(4) > div:last-child {
             width: 100% !important;
             padding: 18px !important;
           }
@@ -871,26 +871,26 @@ export default function SuccessScreen({
         }
 
         @media (max-width: 430px) {
-          section > div:nth-of-type(3) {
+          section > div:nth-of-type(4) {
             padding-left: 16px !important;
             padding-right: 16px !important;
           }
 
-          section > div:nth-of-type(3) > div:first-child h1 {
+          section > div:nth-of-type(4) > div:first-child h1 {
             font-size: 43px !important;
           }
 
-          section > div:nth-of-type(3) > div:first-child > div:first-child {
+          section > div:nth-of-type(4) > div:first-child > div:first-child {
             width: 82px !important;
             height: 82px !important;
             margin-bottom: 22px !important;
           }
 
-          section > div:nth-of-type(3) > div:first-child > div:last-child {
+          section > div:nth-of-type(4) > div:first-child > div:last-child {
             max-width: 330px !important;
           }
 
-          section > div:nth-of-type(3) > div:last-child {
+          section > div:nth-of-type(4) > div:last-child {
             padding: 16px !important;
           }
         }
