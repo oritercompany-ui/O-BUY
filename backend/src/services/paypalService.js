@@ -234,10 +234,10 @@ export async function createPayPalOrder(
       user_action: "PAY_NOW",
       return_url:
         process.env.PAYPAL_RETURN_URL ||
-        "http://localhost:5173/?paypal=success",
+        "https://o-buy.vercel.app/?paypal=success",
       cancel_url:
         process.env.PAYPAL_CANCEL_URL ||
-        "http://localhost:5173/?paypal=cancel"
+        "https://o-buy.vercel.app/?paypal=cancel"
     },
 
     purchase_units: [
